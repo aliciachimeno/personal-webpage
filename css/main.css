@@ -629,3 +629,15 @@ main {
     height: 20px;
     margin-right: 8px;
 }
+
+.logo {
+    font-family: 'Customfont';  /* Set the desired font */
+    font-size: 27px;  /* Set the font size */
+    font-weight: bold;  /* Make the text bold (optional) */
+    color: #000;  /* Set the color of the logo */
+    text-decoration: none;  /* Remove underline */
+    display: inline-block;
+    width: 194px;  /* Set the width if needed */
+    height: 27px;  /* Set the height if needed */
+    line-height: 27px;  /* Vertically center the text */
+}
