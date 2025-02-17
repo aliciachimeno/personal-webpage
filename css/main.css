@@ -198,7 +198,7 @@ main img {
 /* selection*/ 
 ::selection {
     background-color: #FF33A3; /* Bright pink */
-    color: rgb(229, 255, 0); /* Text color when selected */
+    color: white; /* Text color when selected */
   }
   
   /* scrollbar */
@@ -418,7 +418,7 @@ body.tech-portfolio {
   display: inline;
   line-height: 1em;
   font-size: 0.66666em;
-  color: #FF33A3;
+  color: #808080;
   vertical-align: middle;
   @media(max-width: 860px) {
     display: block;
