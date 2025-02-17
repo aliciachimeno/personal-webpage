@@ -507,13 +507,44 @@ main {
 }
 
 
+/* Container for both profile and about me sections */
+.container2 {
+    display: flex;
+    justify-content: space-between; /* Distribute the two sections */
+    gap: 20px; /* Space between the two columns */
+}
+
+
+
+/* About me section: adjusts layout inside the second column */
+.about-me {
+    width: 75%; /* Take up about 50% of the width */
+}
+
+/* Optional styling for responsiveness (e.g., stacking in one column on small screens) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the two sections vertically on small screens */
+    }
+
+    .profile-card,
+    .about-me {
+        width: 100%; /* Ensure each section takes full width */
+    }
+}
+
+
 .profile-card {
     background: #1a1a1a;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    flex: 2 1 400px;
     width: 250px;
+    max-width: 300px;
+    max-height: 300px;
+
 }
 
 .avatar {
@@ -597,7 +628,7 @@ main {
 /* Skills Grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Adjust the min-width here */
+    grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr)); /* Adjust the min-width here */
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -641,3 +672,4 @@ main {
     height: 27px;  /* Set the height if needed */
     line-height: 27px;  /* Vertically center the text */
 }
+
