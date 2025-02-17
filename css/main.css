@@ -247,7 +247,7 @@ body.tech-portfolio {
     content: ' ';
     display: block;
     width: 6px;
-    height: 100%;
+    height: 120%;
     margin-left: -3px;
     background: rgb(80,80,80);
     z-index: 5;
@@ -256,6 +256,7 @@ body.tech-portfolio {
     padding: 1em 0;
     @media(max-width: 860px) {
       padding: 2em 0;
+      
     }
     &::after {
       content: "";
@@ -453,4 +454,54 @@ body.tech-portfolio {
     z-index: 15;
     
   }
+}
+
+
+.location {
+  display: block;
+  font-size: 0.75em;
+  color: rgb(150,150,150);
+  margin-top: 4px;
+}
+.flag {
+    display: inline-flex;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+.container {
+    display: inline-block; /* Makes the div behave like an inline element */
+    margin-left: 8px; /* Adds some space between the text and the image */
+}
+
+.mini-pic {
+    width: 20px; /* Adjust the image size */
+    height: 20px;
+    border-radius: 100%; /* Optional: makes the image circular */
+}
+
+
+.mini-pic2 {
+    width: 50px; /* Adjust the image size */
+    height: 20px;
+    border-radius:10%; /* Optional: makes the image circular */
+}
+
+.keyword {
+    background-color: #f0f0f5;
+    color: #3f51b5;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+section#skills {
+    margin-top: 200px;  /* Adjust this value to add space after the timeline */
+}
+
+.timeline li {
+    padding-bottom: 2em;  /* Adds more space between timeline items */
+}
+
+main {
+    padding: 40px 20px;  /* Adjust for better spacing */
 }
