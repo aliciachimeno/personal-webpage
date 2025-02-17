@@ -198,7 +198,7 @@ main img {
 /* selection*/ 
 ::selection {
     background-color: #FF33A3; /* Bright pink */
-    color: white; /* Text color when selected */
+    color: rgb(229, 255, 0); /* Text color when selected */
   }
   
   /* scrollbar */
