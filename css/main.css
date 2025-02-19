@@ -13,8 +13,8 @@ body {
 }
 
 .logo {
-  font-family: 'Customfont';  /* Set the desired font */
-  font-size: 27px;  /* Set the font size */
+  font-family: 'Customfont2';  /* Set the desired font */
+  font-size: 20px;  /* Set the font size */
   font-weight: bold;  /* Make the text bold (optional) */
   color: #000;  /* Set the color of the logo */
   text-decoration: none;  /* Remove underline */
